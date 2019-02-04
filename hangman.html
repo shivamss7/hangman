@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+		Hangman!
+		</title>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<section class="text-center sectionOne">
+			<h2> Welcome to Hangman! </h2>
+			<div class="background">
+				<img src="images/hangman.png">
+			</div>
+		</section>
+		<section class="text-center sectionTwo">
+			<h3 id="lives"> </h3>
+			<h3 id="line"> </h3>
+			<h3 id="data"> Enter the word </h3>
+			<input type = "password" name="word" class="input">
+			<div class="buttons">
+				<button type="button" class="btn btn-primary submit"> Submit </button>
+				<button type="button" class="btn btn-primary reset"> Reset </button>
+			</div>
+			<div>
+				<p class="dash"> </p>
+			</div>
+			<div class="container">
+				<div class="keyboard"> </div>
+			</div>
+		</section>
+	</body>
+	<script src="js/jquery.js"></script>
+	<script src="js/hangman.js"></script>
+</html>
